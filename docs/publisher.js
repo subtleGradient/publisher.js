@@ -21,7 +21,7 @@
 // finally to `window` if nothing else is available.
 
 // ### AMD (RequireJS) installation
-// 
+
 // Place `publisher.js` in your application and require it as usual.
 require(['path/to/publisher'], function (publisher) {
   /* Do stuff with publisher here */
@@ -32,12 +32,12 @@ require(['path/to/publisher'], function (publisher) {
 // Install with npm
 //
 //     npm install publisher
-//
+
 // Include like everything else
 var publisher = require('publisher');
 
 // ### Other browser usage
-//
+
 // If ender, jQuery, or $ are defined, publisher is assigned to it--otherwise it
 // hangs from the global object (window).
 ender.publisher
